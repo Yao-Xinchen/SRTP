@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/xinchen/Dev/SRTP/build/custom_interface
 include CMakeFiles/custom_interface.dir/progress.make
 
 CMakeFiles/custom_interface: /home/xinchen/Dev/SRTP/src/custom_interface/msg/Torque.msg
+CMakeFiles/custom_interface: /home/xinchen/Dev/SRTP/src/custom_interface/msg/Position.msg
 
 
 custom_interface: CMakeFiles/custom_interface

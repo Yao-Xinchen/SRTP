@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/position__type_support.cpp.o"
   "CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp.o"
   "libcustom_interface__rosidl_typesupport_cpp.pdb"
   "libcustom_interface__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/custom_interface/msg/position__type_support.cpp"
   "rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp"
 )
 

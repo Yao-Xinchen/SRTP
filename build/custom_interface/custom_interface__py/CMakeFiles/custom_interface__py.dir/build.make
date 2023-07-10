@@ -57,8 +57,10 @@ custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom
 custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
 custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c
 custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/msg/_torque.py
+custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/msg/_position.py
 custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/msg/__init__.py
 custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/msg/_torque_s.c
+custom_interface__py/CMakeFiles/custom_interface__py: rosidl_generator_py/custom_interface/msg/_position_s.c
 
 
 rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -75,6 +77,7 @@ rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_f
 rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_interface/msg/Torque.idl
+rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_interface/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/xinchen/Dev/SRTP/build/custom_interface/custom_interface__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -87,19 +90,27 @@ rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c
 rosidl_generator_py/custom_interface/msg/_torque.py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interface/msg/_torque.py
 
+rosidl_generator_py/custom_interface/msg/_position.py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interface/msg/_position.py
+
 rosidl_generator_py/custom_interface/msg/__init__.py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interface/msg/__init__.py
 
 rosidl_generator_py/custom_interface/msg/_torque_s.c: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interface/msg/_torque_s.c
 
+rosidl_generator_py/custom_interface/msg/_position_s.c: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interface/msg/_position_s.c
+
 custom_interface__py: custom_interface__py/CMakeFiles/custom_interface__py
 custom_interface__py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 custom_interface__py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
 custom_interface__py: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c
 custom_interface__py: rosidl_generator_py/custom_interface/msg/_torque.py
+custom_interface__py: rosidl_generator_py/custom_interface/msg/_position.py
 custom_interface__py: rosidl_generator_py/custom_interface/msg/__init__.py
 custom_interface__py: rosidl_generator_py/custom_interface/msg/_torque_s.c
+custom_interface__py: rosidl_generator_py/custom_interface/msg/_position_s.c
 custom_interface__py: custom_interface__py/CMakeFiles/custom_interface__py.dir/build.make
 
 .PHONY : custom_interface__py

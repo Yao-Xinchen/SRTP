@@ -26,9 +26,9 @@ private:
     
     void torque_callback(const custom_interface::msg::Torque &torque) const
     {
-        // dxl_wb.convertCurrent2Value(ID, self->torque);
-        // dxl_wb.itemWrite(ID, "Goal_Current", (int)torque); // remain to be changed: torque, goal current
-        RCLCPP_INFO(this->get_logger(), "Torque set to %f", torque);
+        int current_data = dxl_wb.convertValue2Current(ID, torque.torque); // remain to be changed
+        dxl_wb.itemWrite(ID, "Goal_Current", current_data);
+        RCLCPP_INFO(this->get_logger(), "Current set to %f", torque);
     }
 };
 

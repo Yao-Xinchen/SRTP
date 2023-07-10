@@ -1,0 +1,115 @@
+[0.142s] Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
+[0.417s] [  3%] Built target custom_interface__cpp
+[0.427s] [ 12%] Built target custom_interface__rosidl_generator_c
+[0.510s] [ 22%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[0.560s] [ 32%] Built target custom_interface__rosidl_typesupport_c
+[0.605s] [ 41%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[0.606s] [ 51%] Built target custom_interface__rosidl_typesupport_cpp
+[0.628s] [ 61%] Built target custom_interface__rosidl_typesupport_introspection_c
+[0.753s] [ 70%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[0.828s] [ 70%] Built target custom_interface
+[0.910s] [ 74%] Built target custom_interface__py
+[0.975s] [ 80%] Built target custom_interface__python
+[1.080s] [ 87%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[1.110s] [ 93%] Built target custom_interface__rosidl_typesupport_c__pyext
+[1.130s] [100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.181s] Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
+[1.353s] Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface
+[1.387s] -- Install configuration: ""
+[1.390s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[1.391s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface
+[1.392s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg
+[1.392s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/torque.h
+[1.392s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail
+[1.392s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__functions.c
+[1.393s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__type_support.h
+[1.393s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__functions.h
+[1.393s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__struct.h
+[1.393s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[1.393s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/library_path.sh
+[1.394s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[1.394s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[1.395s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface
+[1.395s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg
+[1.395s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail
+[1.395s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_c.h
+[1.396s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.396s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[1.396s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface
+[1.396s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg
+[1.397s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail
+[1.397s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp
+[1.397s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps
+[1.398s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.398s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.399s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface
+[1.399s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg
+[1.399s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail
+[1.400s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__type_support.c
+[1.400s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__rosidl_typesupport_introspection_c.h
+[1.400s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.400s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[1.400s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[1.401s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface
+[1.401s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg
+[1.401s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail
+[1.402s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__builder.hpp
+[1.402s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__type_support.hpp
+[1.402s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__traits.hpp
+[1.402s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__struct.hpp
+[1.403s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.403s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/torque.hpp
+[1.403s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface
+[1.403s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg
+[1.403s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail
+[1.403s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__rosidl_typesupport_introspection_cpp.hpp
+[1.404s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/include/custom_interface/msg/detail/torque__type_support.cpp
+[1.404s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[1.408s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[1.408s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[1.408s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[1.409s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py
+[1.524s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg
+[1.525s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_torque_s.c
+[1.525s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_torque.py
+[1.525s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py
+[1.525s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.526s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.527s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.528s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/lib/libcustom_interface__python.so
+[1.529s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/msg/Torque.idl
+[1.530s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/msg/Torque.msg
+[1.536s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[1.538s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[1.539s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[1.539s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[1.540s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/path.sh
+[1.541s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/path.dsv
+[1.541s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.bash
+[1.542s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.sh
+[1.542s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.zsh
+[1.542s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.dsv
+[1.542s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.dsv
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[1.543s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.544s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake
+[1.544s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.544s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.544s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[1.544s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.544s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.545s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[1.546s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[1.546s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.xml
+[1.591s] Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface

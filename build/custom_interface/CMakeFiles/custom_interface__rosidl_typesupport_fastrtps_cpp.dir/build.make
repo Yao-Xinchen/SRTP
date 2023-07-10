@@ -66,11 +66,18 @@ rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque_
 rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
 rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp: rosidl_adapter/custom_interface/msg/Torque.idl
+rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp: rosidl_adapter/custom_interface/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp
@@ -85,14 +92,29 @@ CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp -o CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.s
 
+CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.o: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.o -c /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp
+
+CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp > CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.i
+
+CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp -o CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.s
+
 # Object files for target custom_interface__rosidl_typesupport_fastrtps_cpp
 custom_interface__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
-"CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o"
+"CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o" \
+"CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.o"
 
 # External object files for target custom_interface__rosidl_typesupport_fastrtps_cpp
 custom_interface__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o
+libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp.o
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librmw.so
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
@@ -106,7 +128,7 @@ libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-gnu/libssl.so
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-gnu/libcrypto.so
 libcustom_interface__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -120,6 +142,8 @@ CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/clean:
 
 CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp
 CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/position__type_support.cpp
+CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
 	cd /home/xinchen/Dev/SRTP/build/custom_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xinchen/Dev/SRTP/src/custom_interface /home/xinchen/Dev/SRTP/src/custom_interface /home/xinchen/Dev/SRTP/build/custom_interface /home/xinchen/Dev/SRTP/build/custom_interface /home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/depend
 

@@ -1,2 +1,4 @@
+msg/Position.idl
+msg/Position.msg
 msg/Torque.idl
 msg/Torque.msg

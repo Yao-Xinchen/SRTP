@@ -1,9 +1,35 @@
 #include "rclcpp/rclcpp.hpp"
 #include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
+#include "custom_interface/msg/position.hpp"
+#include <custom_interface/msg/detail/position__struct.hpp>
 
 #define BAUDRATE 57600
 #define ID 1
 
+DynamixelWorkbench dxl_wb;
+
+class PositionController : public rclcpp::Node
+{
+public:
+    PositionController() : Node("PositionContoller")
+    {
+        subscription_ = this->create_subscription<custom_interface::msg::Position>(
+            "position", 10, [this](custom_interface::msg::Position::SharedPtr position) {
+                this->position_callback(*position);
+            });
+    }
+
+private:
+        rclcpp::Subscription<custom_interface::msg::Position>::SharedPtr subscription_;
+
+        void position_callback(const custom_interface::msg::Position &position) const
+        {
+            int position_data = dxl_wb.convertRadian2Value(ID, position.position);
+            // dxl_wb.itemWrite(ID, "Goal_Position", position_data);
+            // RCLCPP_INFO(this->get_logger(), "Position set to %f", position.position);
+        }
+
+};
 
 int main(int argc, char **argv)
 {

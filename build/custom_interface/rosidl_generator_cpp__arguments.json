@@ -3,7 +3,8 @@
   "output_dir": "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface:msg/Torque.idl"
+    "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface:msg/Torque.idl",
+    "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface:msg/Position.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -25,6 +26,7 @@
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
-    "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface/msg/Torque.idl"
+    "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface/msg/Torque.idl",
+    "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface/msg/Position.idl"
   ]
 }

@@ -1,0 +1,16 @@
+[0.069s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/custom_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[0.250s] [35m[1mScanning dependencies of target position_controller[0m
+[0.258s] [35m[1mScanning dependencies of target torque_controller[0m
+[0.421s] [ 25%] [32mBuilding CXX object CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/position_controller.dir/src/position_controller.cpp.o[0m
+[1.108s] [01m[K/home/xinchen/Dev/SRTP/src/motor_controller/src/position_controller.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcustom_interface/msg/position.hpp: No such file or directory
+[1.108s]     3 | #include [01;31m[K"custom_interface/msg/position.hpp"[m[K
+[1.108s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.108s] compilation terminated.
+[1.120s] make[2]: *** [CMakeFiles/position_controller.dir/build.make:63: CMakeFiles/position_controller.dir/src/position_controller.cpp.o] Error 1
+[1.122s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/position_controller.dir/all] Error 2
+[1.122s] make[1]: *** Waiting for unfinished jobs....
+[11.582s] [ 75%] [32m[1mLinking CXX executable torque_controller[0m
+[12.135s] [ 75%] Built target torque_controller
+[12.138s] make: *** [Makefile:141: all] Error 2
+[12.145s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '2': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/custom_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6

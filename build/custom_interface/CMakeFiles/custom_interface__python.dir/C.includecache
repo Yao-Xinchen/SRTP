@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/_position_s.c
+Python.h
+-
+stdbool.h
+-
+numpy/ndarrayobject.h
+/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/numpy/ndarrayobject.h
+rosidl_runtime_c/visibility_control.h
+/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/rosidl_runtime_c/visibility_control.h
+custom_interface/msg/detail/position__struct.h
+/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/custom_interface/msg/detail/position__struct.h
+custom_interface/msg/detail/position__functions.h
+/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/custom_interface/msg/detail/position__functions.h
+
 /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/_torque_s.c
 Python.h
 -
@@ -593,6 +607,26 @@ cpython/unicodeobject.h
 /usr/include/python3.8/warnings.h
 
 /usr/include/python3.8/weakrefobject.h
+
+rosidl_generator_c/custom_interface/msg/detail/position__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/custom_interface/msg/detail/rosidl_runtime_c/visibility_control.h
+custom_interface/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/custom_interface/msg/detail/custom_interface/msg/rosidl_generator_c__visibility_control.h
+custom_interface/msg/detail/position__struct.h
+rosidl_generator_c/custom_interface/msg/detail/custom_interface/msg/detail/position__struct.h
+
+rosidl_generator_c/custom_interface/msg/detail/position__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/custom_interface/msg/detail/torque__functions.h
 stdbool.h

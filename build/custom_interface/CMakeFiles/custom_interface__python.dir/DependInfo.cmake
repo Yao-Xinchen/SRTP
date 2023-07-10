@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/_position_s.c" "/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_position_s.c.o"
   "/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_py/custom_interface/msg/_torque_s.c" "/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_torque_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

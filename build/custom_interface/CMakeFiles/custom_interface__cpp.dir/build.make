@@ -58,6 +58,11 @@ CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/deta
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__traits.hpp
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__type_support.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/position.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__builder.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__struct.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__traits.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__type_support.hpp
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
@@ -81,6 +86,7 @@ rosidl_generator_cpp/custom_interface/msg/torque.hpp: /opt/ros/foxy/share/rosidl
 rosidl_generator_cpp/custom_interface/msg/torque.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/custom_interface/msg/torque.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/custom_interface/msg/torque.hpp: rosidl_adapter/custom_interface/msg/Torque.idl
+rosidl_generator_cpp/custom_interface/msg/torque.hpp: rosidl_adapter/custom_interface/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp__arguments.json
 
@@ -96,12 +102,32 @@ rosidl_generator_cpp/custom_interface/msg/detail/torque__traits.hpp: rosidl_gene
 rosidl_generator_cpp/custom_interface/msg/detail/torque__type_support.hpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/detail/torque__type_support.hpp
 
+rosidl_generator_cpp/custom_interface/msg/position.hpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/position.hpp
+
+rosidl_generator_cpp/custom_interface/msg/detail/position__builder.hpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/detail/position__builder.hpp
+
+rosidl_generator_cpp/custom_interface/msg/detail/position__struct.hpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/detail/position__struct.hpp
+
+rosidl_generator_cpp/custom_interface/msg/detail/position__traits.hpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/detail/position__traits.hpp
+
+rosidl_generator_cpp/custom_interface/msg/detail/position__type_support.hpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/detail/position__type_support.hpp
+
 custom_interface__cpp: CMakeFiles/custom_interface__cpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/torque.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__builder.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__traits.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/torque__type_support.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/position.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__builder.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__struct.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__traits.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/position__type_support.hpp
 custom_interface__cpp: CMakeFiles/custom_interface__cpp.dir/build.make
 
 .PHONY : custom_interface__cpp

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_position_s.c.o"
   "CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_torque_s.c.o"
   "rosidl_generator_py/custom_interface/libcustom_interface__python.pdb"
   "rosidl_generator_py/custom_interface/libcustom_interface__python.so"
