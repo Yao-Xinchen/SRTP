@@ -1,0 +1,578 @@
+[0.794s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.794s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ea06730>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ea06730>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ea06c70>)
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.898s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xinchen/Dev/SRTP'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ros'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['cmake', 'python']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'cmake'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['python_setup_py']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python_setup_py'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[0.957s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller' with type 'ros.ament_cmake' and name 'motor_controller'
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.040s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/xinchen/Dev/SRTP/install
+[1.045s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/foxy
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_args' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.290s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/custom_interface', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/custom_interface', 'symlink_install': False, 'test_result_base': None}
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.293s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.296s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.300s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_args' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.303s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox', 'symlink_install': False, 'test_result_base': None}
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.307s] DEBUG:colcon.colcon_core.verb:Building package 'motor_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/motor_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/motor_controller', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/motor_controller', 'symlink_install': False, 'test_result_base': None}
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_cache' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_first' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_force_configure' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'ament_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.310s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinchen/Dev/SRTP/build/dynamixel_workbench', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinchen/Dev/SRTP/install/dynamixel_workbench', 'merge_install': False, 'path': '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench', 'symlink_install': False, 'test_result_base': None}
+[1.312s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[1.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk'
+[1.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/custom_interface' with build type 'ament_cmake'
+[1.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/custom_interface'
+[1.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[1.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[1.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk -- -j6 -l6
+[1.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces -- -j6 -l6
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk -- -j6 -l6
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_sdk
+[2.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_sdk
+[2.374s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk' for CMake module files
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk' for CMake config files
+[2.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib'
+[2.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/bin'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib/python3.8/site-packages'
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/bin'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[2.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
+[2.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk' for CMake module files
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk' for CMake config files
+[2.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.684s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib'
+[2.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib/python3.8/site-packages'
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/bin'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[2.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox' with build type 'ament_cmake'
+[2.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox'
+[2.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces -- -j6 -l6
+[2.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox -- -j6 -l6
+[2.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface
+[2.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces
+[3.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface' for CMake module files
+[3.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface' for CMake config files
+[3.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[3.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[3.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[3.061s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/lib'
+[3.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[3.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/bin'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages'
+[3.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'pythonpath')
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/pythonpath.ps1'
+[3.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/pythonpath.dsv'
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/pythonpath.sh'
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/bin'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.ps1'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.dsv'
+[3.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.sh'
+[3.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.bash'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.zsh'
+[3.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/custom_interface/share/colcon-core/packages/custom_interface)
+[3.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox -- -j6 -l6
+[3.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[3.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces
+[3.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib'
+[3.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/bin'
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[3.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[3.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[3.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[3.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[3.227s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/bin'
+[3.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[3.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[3.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[3.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[3.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox
+[3.271s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[3.279s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface' for CMake module files
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface' for CMake config files
+[3.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[3.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[3.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[3.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/lib'
+[3.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[3.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[3.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/bin'
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages'
+[3.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'pythonpath')
+[3.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/pythonpath.ps1'
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/pythonpath.dsv'
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/hook/pythonpath.sh'
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/custom_interface/bin'
+[3.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.ps1'
+[3.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.dsv'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.sh'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.bash'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.zsh'
+[3.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/custom_interface/share/colcon-core/packages/custom_interface)
+[3.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/motor_controller' with build type 'ament_cmake'
+[3.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/motor_controller'
+[3.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[3.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox' for CMake module files
+[3.387s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox' for CMake config files
+[3.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[3.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[3.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib'
+[3.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[3.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[3.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/bin'
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib/python3.8/site-packages'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/bin'
+[3.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[3.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[3.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[3.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[3.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[3.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[3.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[3.505s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[3.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[3.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib'
+[3.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[3.530s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/bin'
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[3.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[3.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[3.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[3.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[3.540s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/bin'
+[3.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[3.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[3.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[3.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[3.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[3.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[3.559s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[3.560s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples'
+[3.566s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[3.619s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox' for CMake module files
+[3.625s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox' for CMake config files
+[3.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[3.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[3.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[3.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib'
+[3.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[3.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/bin'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib/python3.8/site-packages'
+[3.650s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/bin'
+[3.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[3.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[3.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[3.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[3.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[3.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[3.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench' with build type 'ament_cmake'
+[3.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench'
+[3.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples -- -j6 -l6
+[3.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_workbench -- -j6 -l6
+[3.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench' returned '0': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_workbench -- -j6 -l6
+[4.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_workbench
+[4.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples -- -j6 -l6
+[4.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[4.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench' returned '0': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_workbench
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench' for CMake module files
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench' for CMake config files
+[4.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[4.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[4.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[4.157s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/bin'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/lib/python3.8/site-packages'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/bin'
+[4.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[4.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[4.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[4.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[4.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[4.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[4.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples
+[4.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[4.251s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench' for CMake module files
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench' for CMake config files
+[4.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[4.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[4.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/bin'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/lib/python3.8/site-packages'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/bin'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[4.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[4.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[4.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[4.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[4.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[4.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[4.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_sdk_examples
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples' for CMake module files
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples' for CMake config files
+[4.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[4.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[4.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[4.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/lib'
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/bin'
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/bin'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[4.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[4.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[4.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[4.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[4.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[4.599s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples' for CMake module files
+[4.600s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples' for CMake config files
+[4.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[4.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[4.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[4.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/lib'
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/bin'
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[4.627s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[4.627s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/bin'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[4.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[4.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[4.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[4.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[11.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '2': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[11.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_controller)
+[11.598s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/motor_controller' for CMake module files
+[11.600s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/motor_controller' for CMake config files
+[11.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller', 'cmake_prefix_path')
+[11.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/hook/cmake_prefix_path.ps1'
+[11.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/hook/cmake_prefix_path.dsv'
+[11.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/hook/cmake_prefix_path.sh'
+[11.610s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/motor_controller/bin'
+[11.610s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/motor_controller/lib/pkgconfig/motor_controller.pc'
+[11.611s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/motor_controller/lib/python3.8/site-packages'
+[11.611s] Level 1:colcon.colcon_core.environment:checking '/home/xinchen/Dev/SRTP/install/motor_controller/bin'
+[11.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.ps1'
+[11.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.dsv'
+[11.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.sh'
+[11.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.bash'
+[11.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.zsh'
+[11.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinchen/Dev/SRTP/install/motor_controller/share/colcon-core/packages/motor_controller)
+[11.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[11.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.705s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.847s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinchen/Dev/SRTP/install/local_setup.ps1'
+[11.857s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xinchen/Dev/SRTP/install/_local_setup_util_ps1.py'
+[11.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinchen/Dev/SRTP/install/setup.ps1'
+[11.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinchen/Dev/SRTP/install/local_setup.sh'
+[11.868s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xinchen/Dev/SRTP/install/_local_setup_util_sh.py'
+[11.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinchen/Dev/SRTP/install/setup.sh'
+[11.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinchen/Dev/SRTP/install/local_setup.bash'
+[11.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinchen/Dev/SRTP/install/setup.bash'
+[11.880s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinchen/Dev/SRTP/install/local_setup.zsh'
+[11.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinchen/Dev/SRTP/install/setup.zsh'

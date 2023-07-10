@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000848] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000989] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.002391] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002489] (-) JobUnselected: {'identifier': 'dynamixel_workbench'}
+[0.002585] (-) JobUnselected: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.002633] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.002685] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.002738] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.047110] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.049398] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[0.051359] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xinchen/Dev/SRTP/build/custom_interface', '--', '-j6', '-l6'], 'cwd': '/home/xinchen/Dev/SRTP/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xinchen'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3506'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xinchen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/xinchen/Dev/SRTP/src'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3300'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3895'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xinchen/Dev/SRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xinchen'), ('JOURNAL_STREAM', '7:66934'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xinchen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/xinchen/.local/bin:/home/xinchen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xinchen-orin:@/tmp/.ICE-unix/3541,unix/xinchen-orin:/tmp/.ICE-unix/3541'), ('INVOCATION_ID', '65bb98a919844a1d8a555df81741f8f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0a6ec1465c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xinchen/Dev/SRTP/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy')]), 'shell': False}
+[0.099011] (-) TimerEvent: {}
+[0.136308] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.193818] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.195603] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199094] (-) TimerEvent: {}
+[0.299731] (-) TimerEvent: {}
+[0.400369] (-) TimerEvent: {}
+[0.500989] (-) TimerEvent: {}
+[0.601639] (-) TimerEvent: {}
+[0.702536] (-) TimerEvent: {}
+[0.763759] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.770936] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779035] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.802752] (-) TimerEvent: {}
+[0.903512] (-) TimerEvent: {}
+[1.004240] (-) TimerEvent: {}
+[1.096991] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.104307] (-) TimerEvent: {}
+[1.189263] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.204477] (-) TimerEvent: {}
+[1.305088] (-) TimerEvent: {}
+[1.405720] (-) TimerEvent: {}
+[1.442642] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.505929] (-) TimerEvent: {}
+[1.606660] (-) TimerEvent: {}
+[1.683932] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.700741] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.706801] (-) TimerEvent: {}
+[1.758941] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.769250] (custom_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.806972] (-) TimerEvent: {}
+[1.843639] (custom_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.844709] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.848379] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.848784] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[1.898231] (custom_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.907148] (-) TimerEvent: {}
+[1.984805] (custom_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.007332] (-) TimerEvent: {}
+[2.018546] (custom_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.023012] (custom_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.025527] (custom_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.035321] (custom_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.106172] (custom_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.107400] (-) TimerEvent: {}
+[2.112429] (custom_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/xinchen/Dev/SRTP/build/custom_interface\n'}
+[2.177025] (custom_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.179033] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__cpp\x1b[0m\n'}
+[2.201906] (custom_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.207657] (-) TimerEvent: {}
+[2.308323] (-) TimerEvent: {}
+[2.409209] (-) TimerEvent: {}
+[2.510203] (-) TimerEvent: {}
+[2.610855] (-) TimerEvent: {}
+[2.711573] (-) TimerEvent: {}
+[2.774447] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_generator_c\x1b[0m\n'}
+[2.783285] (custom_interface) StdoutLine: {'line': b'[  6%] Built target custom_interface__cpp\n'}
+[2.807898] (custom_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c.o\x1b[0m\n'}
+[2.808545] (custom_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.811688] (-) TimerEvent: {}
+[2.834985] (custom_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.846311] (custom_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.911855] (-) TimerEvent: {}
+[2.962758] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__functions.h:19\x1b[m\x1b[K,\n'}
+[2.963352] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c:4\x1b[m\x1b[K:\n'}
+[2.963553] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__struct.h:23:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktwo or more data types in declaration specifiers\n'}
+[2.963731] (custom_interface) StderrLine: {'line': b'   23 |   int64_t \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K;\n'}
+[2.963890] (custom_interface) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.964035] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__struct.h:23:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kdeclaration does not declare anything\n'}
+[2.964177] (custom_interface) StderrLine: {'line': b'   23 |   int64_t float\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.964312] (custom_interface) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.988877] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface__msg__Torque__are_equal\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.990092] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c:40:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.991449] (custom_interface) StderrLine: {'line': b'   40 |   if (lhs->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K != rhs->float) {\n'}
+[2.991801] (custom_interface) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.991984] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface__msg__Torque__copy\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.993835] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c:55:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.994020] (custom_interface) StderrLine: {'line': b'   55 |   output->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = input->float;\n'}
+[2.994171] (custom_interface) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.012012] (-) TimerEvent: {}
+[3.014292] (custom_interface) StderrLine: {'line': b'make[2]: *** [CMakeFiles/custom_interface__rosidl_generator_c.dir/build.make:92: CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/torque__functions.c.o] Error 1\n'}
+[3.017573] (custom_interface) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:299: CMakeFiles/custom_interface__rosidl_generator_c.dir/all] Error 2\n'}
+[3.018046] (custom_interface) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.112168] (-) TimerEvent: {}
+[3.212838] (-) TimerEvent: {}
+[3.291730] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.292232] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.313026] (-) TimerEvent: {}
+[3.322030] (custom_interface) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp.o\x1b[0m\n'}
+[3.336269] (custom_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp.o\x1b[0m\n'}
+[3.379947] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.413229] (-) TimerEvent: {}
+[3.416194] (custom_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o\x1b[0m\n'}
+[3.513427] (-) TimerEvent: {}
+[3.614188] (-) TimerEvent: {}
+[3.714934] (-) TimerEvent: {}
+[3.815725] (-) TimerEvent: {}
+[3.916476] (-) TimerEvent: {}
+[4.017234] (-) TimerEvent: {}
+[4.102531] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[4.104064] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmultiple types in one declaration\n'}
+[4.105184] (custom_interface) StderrLine: {'line': b'   57 |   _float_type \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K;\n'}
+[4.106181] (custom_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.107293] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration does not declare anything [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.109162] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[4.110205] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Torque_(rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.111121] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:40:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.112017] (custom_interface) StderrLine: {'line': b'   40 |       this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = 0ll;\n'}
+[4.112918] (custom_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.114059] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[4.114977] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Torque_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.115944] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:50:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.116844] (custom_interface) StderrLine: {'line': b'   50 |       this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = 0ll;\n'}
+[4.117599] (-) TimerEvent: {}
+[4.118234] (custom_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.119371] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Type& custom_interface::msg::Torque_<ContainerAllocator>::set__float(const int64_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.120286] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:63:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.121178] (custom_interface) StderrLine: {'line': b'   63 |     this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = _arg;\n'}
+[4.122046] (custom_interface) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.123149] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool custom_interface::msg::Torque_<ContainerAllocator>::operator==(const custom_interface::msg::Torque_<ContainerAllocator>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.124132] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:109:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124579] (custom_interface) StderrLine: {'line': b'  109 |     if (this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K != other.float) {\n'}
+[4.124750] (custom_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.124896] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:109:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.125043] (custom_interface) StderrLine: {'line': b'  109 |     if \x1b[34m\x1b[K(\x1b[m\x1b[Kthis->\x1b[01;31m\x1b[Kf\x1b[m\x1b[K\x1b[32m\x1b[Kloat\x1b[m\x1b[K != other.float) {\n'}
+[4.125181] (custom_interface) StderrLine: {'line': b'      |        \x1b[34m\x1b[K~\x1b[m\x1b[K      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[4.125319] (custom_interface) StderrLine: {'line': b'      |               \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.154168] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[4.155129] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmultiple types in one declaration\n'}
+[4.155444] (custom_interface) StderrLine: {'line': b'   57 |   _float_type \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K;\n'}
+[4.155619] (custom_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.155775] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration does not declare anything [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.156835] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[4.157144] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Torque_(rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.157323] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:40:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.157481] (custom_interface) StderrLine: {'line': b'   40 |       this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = 0ll;\n'}
+[4.157625] (custom_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.157936] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[4.158276] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Torque_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.158512] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:50:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.158689] (custom_interface) StderrLine: {'line': b'   50 |       this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = 0ll;\n'}
+[4.158832] (custom_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.159244] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Type& custom_interface::msg::Torque_<ContainerAllocator>::set__float(const int64_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.159477] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:63:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.159632] (custom_interface) StderrLine: {'line': b'   63 |     this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = _arg;\n'}
+[4.159773] (custom_interface) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.160153] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool custom_interface::msg::Torque_<ContainerAllocator>::operator==(const custom_interface::msg::Torque_<ContainerAllocator>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.160470] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:109:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.160642] (custom_interface) StderrLine: {'line': b'  109 |     if (this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K != other.float) {\n'}
+[4.160785] (custom_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.160921] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:109:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.161061] (custom_interface) StderrLine: {'line': b'  109 |     if \x1b[34m\x1b[K(\x1b[m\x1b[Kthis->\x1b[01;31m\x1b[Kf\x1b[m\x1b[K\x1b[32m\x1b[Kloat\x1b[m\x1b[K != other.float) {\n'}
+[4.161192] (custom_interface) StderrLine: {'line': b'      |        \x1b[34m\x1b[K~\x1b[m\x1b[K      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[4.161324] (custom_interface) StderrLine: {'line': b'      |               \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.163873] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/stdio.h:33\x1b[m\x1b[K,\n'}
+[4.164302] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/cstdio:42\x1b[m\x1b[K,\n'}
+[4.164489] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:43\x1b[m\x1b[K,\n'}
+[4.164644] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6496\x1b[m\x1b[K,\n'}
+[4.164790] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[4.164928] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[4.165063] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[4.165199] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:5\x1b[m\x1b[K:\n'}
+[4.165339] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.165473] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:49:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.165612] (custom_interface) StderrLine: {'line': b'   49 |     offsetof(custom_interface::msg::Torque, \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K),  // bytes offset in struct\n'}
+[4.165746] (custom_interface) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.165882] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:49:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.166026] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp:49:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.166184] (custom_interface) StderrLine: {'line': b'   49 |     \x1b[01;36m\x1b[Koffsetof\x1b[m\x1b[K(custom_interface::msg::Torque, float),  // bytes offset in struct\n'}
+[4.166333] (custom_interface) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.217826] (-) TimerEvent: {}
+[4.245757] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[4.247036] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[4.247744] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmultiple types in one declaration\n'}
+[4.247975] (custom_interface) StderrLine: {'line': b'   57 |   _float_type \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K;\n'}
+[4.248132] (custom_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.248273] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration does not declare anything [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.248422] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[4.248559] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[4.248712] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Torque_(rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.248850] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:40:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.248992] (custom_interface) StderrLine: {'line': b'   40 |       this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = 0ll;\n'}
+[4.249124] (custom_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.249254] (custom_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[4.249389] (custom_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[4.249519] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Torque_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.249663] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:50:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.249821] (custom_interface) StderrLine: {'line': b'   50 |       this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = 0ll;\n'}
+[4.249955] (custom_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.250088] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcustom_interface::msg::Torque_<ContainerAllocator>::Type& custom_interface::msg::Torque_<ContainerAllocator>::set__float(const int64_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.250225] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:63:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.250357] (custom_interface) StderrLine: {'line': b'   63 |     this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K = _arg;\n'}
+[4.250486] (custom_interface) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.250614] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool custom_interface::msg::Torque_<ContainerAllocator>::operator==(const custom_interface::msg::Torque_<ContainerAllocator>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.250775] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:109:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.250911] (custom_interface) StderrLine: {'line': b'  109 |     if (this->\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K != other.float) {\n'}
+[4.251040] (custom_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.251198] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/detail/torque__struct.hpp:109:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.251361] (custom_interface) StderrLine: {'line': b'  109 |     if \x1b[34m\x1b[K(\x1b[m\x1b[Kthis->\x1b[01;31m\x1b[Kf\x1b[m\x1b[K\x1b[32m\x1b[Kloat\x1b[m\x1b[K != other.float) {\n'}
+[4.251509] (custom_interface) StderrLine: {'line': b'      |        \x1b[34m\x1b[K~\x1b[m\x1b[K      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[4.251642] (custom_interface) StderrLine: {'line': b'      |               \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.269463] (custom_interface) StderrLine: {'line': b'make[2]: *** [CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/torque__type_support.cpp.o] Error 1\n'}
+[4.270013] (custom_interface) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[4.282723] (custom_interface) StderrLine: {'line': b'make[2]: *** [CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/torque__type_support.cpp.o] Error 1\n'}
+[4.283235] (custom_interface) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[4.318027] (-) TimerEvent: {}
+[4.418779] (-) TimerEvent: {}
+[4.519533] (-) TimerEvent: {}
+[4.620558] (-) TimerEvent: {}
+[4.679895] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool custom_interface::msg::typesupport_fastrtps_cpp::cdr_serialize(const Torque&, eprosima::fastcdr::Cdr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.682754] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:36:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.683115] (custom_interface) StderrLine: {'line': b'   36 |   cdr << ros_message.\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K;\n'}
+[4.683291] (custom_interface) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.684929] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool custom_interface::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_interface::msg::Torque&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.685146] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:47:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.685307] (custom_interface) StderrLine: {'line': b'   47 |   cdr >> ros_message.\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K;\n'}
+[4.685448] (custom_interface) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.685586] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksize_t custom_interface::msg::typesupport_fastrtps_cpp::get_serialized_size(const Torque&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.685732] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:67:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.685871] (custom_interface) StderrLine: {'line': b'   67 |     size_t item_size = sizeof(ros_message.\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K);\n'}
+[4.686007] (custom_interface) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.686138] (custom_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xinchen/Dev/SRTP/build/custom_interface/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp:67:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.686276] (custom_interface) StderrLine: {'line': b'   67 |     size_t item_size = sizeof\x1b[34m\x1b[K(\x1b[m\x1b[Kros_message.\x1b[01;31m\x1b[Kf\x1b[m\x1b[K\x1b[32m\x1b[Kloat\x1b[m\x1b[K);\n'}
+[4.686407] (custom_interface) StderrLine: {'line': b'      |                              \x1b[34m\x1b[K~\x1b[m\x1b[K            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[4.686563] (custom_interface) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.720729] (-) TimerEvent: {}
+[4.778540] (custom_interface) StderrLine: {'line': b'make[2]: *** [CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/torque__type_support.cpp.o] Error 1\n'}
+[4.779981] (custom_interface) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:388: CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[4.780274] (custom_interface) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.785298] (custom_interface) CommandEnded: {'returncode': 2}
+[4.820905] (-) TimerEvent: {}
+[4.921607] (-) TimerEvent: {}
+[5.003934] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 2}
+[5.017959] (-) EventReactorShutdown: {}

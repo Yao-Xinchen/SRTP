@@ -1,0 +1,144 @@
+[0.974s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/xinchen/Dev/SRTP']
+[0.974s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/xinchen/Dev/SRTP'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff83607f10>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff83607f10>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff835347c0>)
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.060s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xinchen/Dev/SRTP'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'ignore_ament_install'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extensions ['colcon_pkg']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'colcon_pkg'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extensions ['colcon_meta']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'colcon_meta'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extensions ['ros']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'ros'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extensions ['cmake', 'python']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'cmake'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'python'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extensions ['python_setup_py']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP) by extension 'python_setup_py'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/build) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/build) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/build) ignored
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/install) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/install) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/install) ignored
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/log) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/log) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/log) ignored
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extensions ['ignore', 'ignore_ament_install']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'ignore'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'ignore_ament_install'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extensions ['colcon_pkg']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'colcon_pkg'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extensions ['colcon_meta']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'colcon_meta'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extensions ['ros']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'ros'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extensions ['cmake', 'python']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'cmake'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'python'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extensions ['python_setup_py']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src) by extension 'python_setup_py'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'ignore_ament_install'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extensions ['colcon_pkg']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'colcon_pkg'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extensions ['colcon_meta']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'colcon_meta'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extensions ['ros']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'ros'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extensions ['cmake', 'python']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'cmake'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'python'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extensions ['python_setup_py']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK) by extension 'python_setup_py'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[1.137s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[1.140s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[1.143s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/custom_interface) by extension 'ros'
+[1.147s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'ignore'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'ignore_ament_install'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extensions ['colcon_pkg']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'colcon_pkg'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extensions ['colcon_meta']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'colcon_meta'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extensions ['ros']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'ros'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extensions ['cmake', 'python']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'cmake'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'python'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extensions ['python_setup_py']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench) by extension 'python_setup_py'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[1.153s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[1.156s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extension 'ignore'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extension 'ignore_ament_install'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extensions ['colcon_pkg']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extension 'colcon_pkg'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extensions ['colcon_meta']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extension 'colcon_meta'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extensions ['ros']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/xinchen/Dev/SRTP/src/motor_controller) by extension 'ros'
+[1.159s] DEBUG:colcon.colcon_core.package_identification:Package '/home/xinchen/Dev/SRTP/src/motor_controller' with type 'ros.ament_cmake' and name 'motor_controller'
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

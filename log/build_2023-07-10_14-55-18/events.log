@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000657] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001025] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002693] (-) JobUnselected: {'identifier': 'dynamixel_workbench'}
+[0.002821] (-) JobUnselected: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.002883] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.002969] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.003026] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.054547] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.056684] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[0.058482] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xinchen/Dev/SRTP/build/custom_interface', '--', '-j6', '-l6'], 'cwd': '/home/xinchen/Dev/SRTP/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xinchen'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3506'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib:/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xinchen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/xinchen/Dev/SRTP/src'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3300'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3895'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xinchen/Dev/SRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xinchen'), ('JOURNAL_STREAM', '7:66934'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xinchen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/xinchen/.local/bin:/home/xinchen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xinchen-orin:@/tmp/.ICE-unix/3541,unix/xinchen-orin:/tmp/.ICE-unix/3541'), ('INVOCATION_ID', '65bb98a919844a1d8a555df81741f8f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0a6ec1465c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xinchen/Dev/SRTP/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy')]), 'shell': False}
+[0.099438] (-) TimerEvent: {}
+[0.172409] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199572] (-) TimerEvent: {}
+[0.222203] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299732] (-) TimerEvent: {}
+[0.400372] (-) TimerEvent: {}
+[0.501036] (-) TimerEvent: {}
+[0.601730] (-) TimerEvent: {}
+[0.687851] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.701911] (-) TimerEvent: {}
+[0.704089] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.735250] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.802096] (-) TimerEvent: {}
+[0.902807] (-) TimerEvent: {}
+[1.003497] (-) TimerEvent: {}
+[1.065876] (custom_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.103681] (-) TimerEvent: {}
+[1.140934] (custom_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.203866] (-) TimerEvent: {}
+[1.304573] (-) TimerEvent: {}
+[1.348212] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404759] (-) TimerEvent: {}
+[1.505463] (-) TimerEvent: {}
+[1.545562] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.605622] (-) TimerEvent: {}
+[1.706244] (-) TimerEvent: {}
+[1.806895] (-) TimerEvent: {}
+[1.907543] (-) TimerEvent: {}
+[2.008215] (-) TimerEvent: {}
+[2.075949] (custom_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.076716] (custom_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.076907] (custom_interface) StderrLine: {'line': b'  custom_interface --arguments-file\n'}
+[2.077061] (custom_interface) StderrLine: {'line': b'  /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter__arguments__custom_interface.json\n'}
+[2.077211] (custom_interface) StderrLine: {'line': b'  --output-dir\n'}
+[2.077352] (custom_interface) StderrLine: {'line': b'  /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface\n'}
+[2.077491] (custom_interface) StderrLine: {'line': b'  --output-file\n'}
+[2.077622] (custom_interface) StderrLine: {'line': b'  /home/xinchen/Dev/SRTP/build/custom_interface/rosidl_adapter/custom_interface.idls)\n'}
+[2.077755] (custom_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.077887] (custom_interface) StderrLine: {'line': b'\n'}
+[2.078101] (custom_interface) StderrLine: {'line': b"  Error processing 'float torque' of 'custom_interface/Torque': ''float' is\n"}
+[2.078234] (custom_interface) StderrLine: {'line': b"  an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[2.078363] (custom_interface) StderrLine: {'line': b'\n'}
+[2.078488] (custom_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.078617] (custom_interface) StderrLine: {'line': b'\n'}
+[2.085855] (custom_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.086058] (custom_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.086206] (custom_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.086346] (custom_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.086482] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.086616] (custom_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.086764] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.086896] (custom_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.087023] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[2.087149] (custom_interface) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[2.087271] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.087396] (custom_interface) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.087518] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[2.087642] (custom_interface) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[2.087763] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[2.087886] (custom_interface) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[2.088034] (custom_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[2.088161] (custom_interface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[2.088282] (custom_interface) StderrLine: {'line': b'\n'}
+[2.088442] (custom_interface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message\n"}
+[2.088574] (custom_interface) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[2.088701] (custom_interface) StderrLine: {'line': b'\n'}
+[2.088822] (custom_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.088946] (custom_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.089072] (custom_interface) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[2.089194] (custom_interface) StderrLine: {'line': b'\n'}
+[2.089316] (custom_interface) StderrLine: {'line': b'\n'}
+[2.089435] (custom_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.089586] (custom_interface) StdoutLine: {'line': b'See also "/home/xinchen/Dev/SRTP/build/custom_interface/CMakeFiles/CMakeOutput.log".\n'}
+[2.096057] (custom_interface) StderrLine: {'line': b'make: *** [Makefile:222: cmake_check_build_system] Error 1\n'}
+[2.101449] (custom_interface) CommandEnded: {'returncode': 2}
+[2.108435] (-) TimerEvent: {}
+[2.209444] (-) TimerEvent: {}
+[2.220736] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 2}
+[2.232059] (-) EventReactorShutdown: {}

@@ -68,18 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -135,6 +123,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xinchen/Dev/SRTP/build/motor_controller/CMakeFiles /home/xinchen/Dev/SRTP/build/motor_controller/CMakeFiles/progress.marks
@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named position_controller
+
+# Build rule for target.
+position_controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 position_controller
+.PHONY : position_controller
+
+# fast build rule for target.
+position_controller/fast:
+	$(MAKE) -f CMakeFiles/position_controller.dir/build.make CMakeFiles/position_controller.dir/build
+.PHONY : position_controller/fast
+
+#=============================================================================
+# Target rules for targets named torque_controller
+
+# Build rule for target.
+torque_controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 torque_controller
+.PHONY : torque_controller
+
+# fast build rule for target.
+torque_controller/fast:
+	$(MAKE) -f CMakeFiles/torque_controller.dir/build.make CMakeFiles/torque_controller.dir/build
+.PHONY : torque_controller/fast
+
+#=============================================================================
 # Target rules for targets named motor_controller_uninstall
 
 # Build rule for target.
@@ -193,6 +219,60 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/position_controller.o: src/position_controller.cpp.o
+
+.PHONY : src/position_controller.o
+
+# target to build an object file
+src/position_controller.cpp.o:
+	$(MAKE) -f CMakeFiles/position_controller.dir/build.make CMakeFiles/position_controller.dir/src/position_controller.cpp.o
+.PHONY : src/position_controller.cpp.o
+
+src/position_controller.i: src/position_controller.cpp.i
+
+.PHONY : src/position_controller.i
+
+# target to preprocess a source file
+src/position_controller.cpp.i:
+	$(MAKE) -f CMakeFiles/position_controller.dir/build.make CMakeFiles/position_controller.dir/src/position_controller.cpp.i
+.PHONY : src/position_controller.cpp.i
+
+src/position_controller.s: src/position_controller.cpp.s
+
+.PHONY : src/position_controller.s
+
+# target to generate assembly for a file
+src/position_controller.cpp.s:
+	$(MAKE) -f CMakeFiles/position_controller.dir/build.make CMakeFiles/position_controller.dir/src/position_controller.cpp.s
+.PHONY : src/position_controller.cpp.s
+
+src/torque_controller.o: src/torque_controller.cpp.o
+
+.PHONY : src/torque_controller.o
+
+# target to build an object file
+src/torque_controller.cpp.o:
+	$(MAKE) -f CMakeFiles/torque_controller.dir/build.make CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o
+.PHONY : src/torque_controller.cpp.o
+
+src/torque_controller.i: src/torque_controller.cpp.i
+
+.PHONY : src/torque_controller.i
+
+# target to preprocess a source file
+src/torque_controller.cpp.i:
+	$(MAKE) -f CMakeFiles/torque_controller.dir/build.make CMakeFiles/torque_controller.dir/src/torque_controller.cpp.i
+.PHONY : src/torque_controller.cpp.i
+
+src/torque_controller.s: src/torque_controller.cpp.s
+
+.PHONY : src/torque_controller.s
+
+# target to generate assembly for a file
+src/torque_controller.cpp.s:
+	$(MAKE) -f CMakeFiles/torque_controller.dir/build.make CMakeFiles/torque_controller.dir/src/torque_controller.cpp.s
+.PHONY : src/torque_controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,14 +280,22 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... install/local"
+	@echo "... position_controller"
+	@echo "... torque_controller"
 	@echo "... motor_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... src/position_controller.o"
+	@echo "... src/position_controller.i"
+	@echo "... src/position_controller.s"
+	@echo "... src/torque_controller.o"
+	@echo "... src/torque_controller.i"
+	@echo "... src/torque_controller.s"
 .PHONY : help
 
 

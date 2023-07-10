@@ -12,6 +12,7 @@
         "/opt/ros/foxy/include/**",
         "/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk/include/**",
         "/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/xinchen/Dev/SRTP/src/custom_interface/include/**",
         "/home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
         "/home/xinchen/Dev/SRTP/src/motor_controller/include/**",
         "/usr/include/**"

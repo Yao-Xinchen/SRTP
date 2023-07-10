@@ -1,0 +1,46 @@
+[0.147s] Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/custom_interface
+[0.698s] -- The C compiler identification is GNU 9.4.0
+[1.081s] -- The CXX compiler identification is GNU 9.4.0
+[1.153s] -- Check for working C compiler: /usr/bin/cc
+[1.442s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.455s] -- Detecting C compiler ABI info
+[1.670s] -- Detecting C compiler ABI info - done
+[1.759s] -- Detecting C compile features
+[1.760s] -- Detecting C compile features - done
+[1.761s] -- Check for working CXX compiler: /usr/bin/c++
+[2.119s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.121s] -- Detecting CXX compiler ABI info
+[2.369s] -- Detecting CXX compiler ABI info - done
+[2.397s] -- Detecting CXX compile features
+[2.397s] -- Detecting CXX compile features - done
+[2.421s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.517s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.437s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.736s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.746s] -- Added test 'lint_cmake' to check CMake code style
+[3.782s] -- Added test 'xmllint' to check XML markup files
+[3.799s] -- Configuring done
+[3.804s] -- Generating done
+[3.828s] -- Build files have been written to: /home/xinchen/Dev/SRTP/build/custom_interface
+[3.840s] Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/custom_interface
+[3.849s] Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
+[3.966s] Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
+[4.029s] Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface
+[4.057s] -- Install configuration: ""
+[4.059s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[4.061s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[4.063s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[4.065s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[4.065s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/path.sh
+[4.065s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/environment/path.dsv
+[4.065s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.bash
+[4.065s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.sh
+[4.066s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.zsh
+[4.066s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/local_setup.dsv
+[4.066s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.dsv
+[4.067s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[4.068s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[4.069s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[4.069s] -- Installing: /home/xinchen/Dev/SRTP/install/custom_interface/share/custom_interface/package.xml
+[4.090s] Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface
