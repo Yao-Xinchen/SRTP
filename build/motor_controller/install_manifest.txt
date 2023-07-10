@@ -1,0 +1,15 @@
+/home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller
+/home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/path.sh
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/path.dsv
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.bash
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.sh
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.zsh
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.dsv
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.dsv
+/home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/packages/motor_controller
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake
+/home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.xml

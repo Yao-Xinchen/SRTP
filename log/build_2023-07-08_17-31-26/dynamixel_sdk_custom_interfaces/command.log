@@ -1,0 +1,1 @@
+Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces

@@ -1,0 +1,16 @@
+[0.099s] Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces -- -j6 -l6
+[0.386s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.399s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.441s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.469s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.472s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.472s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.494s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.541s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.594s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[0.643s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[0.703s] [ 84%] Built target dynamixel_sdk_custom_interfaces__python
+[0.766s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.769s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[0.798s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.865s] Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_sdk_custom_interfaces -- -j6 -l6

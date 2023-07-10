@@ -1,0 +1,40 @@
+[0.075s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/motor_controller -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/motor_controller
+[0.415s] -- The C compiler identification is GNU 9.4.0
+[0.646s] -- The CXX compiler identification is GNU 9.4.0
+[0.661s] -- Check for working C compiler: /usr/bin/cc
+[0.887s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.889s] -- Detecting C compiler ABI info
+[1.101s] -- Detecting C compiler ABI info - done
+[1.142s] -- Detecting C compile features
+[1.142s] -- Detecting C compile features - done
+[1.152s] -- Check for working CXX compiler: /usr/bin/c++
+[1.410s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.412s] -- Detecting CXX compiler ABI info
+[1.638s] -- Detecting CXX compiler ABI info - done
+[1.664s] -- Detecting CXX compile features
+[1.667s] -- Detecting CXX compile features - done
+[1.677s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.763s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.503s] CMake Error at CMakeLists.txt:23 (find_package):
+[2.506s]   By not providing "Finddynamixel_workbench_toolbox.cmake" in
+[2.506s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[2.506s]   configuration file provided by "dynamixel_workbench_toolbox", but CMake did
+[2.506s]   not find one.
+[2.506s] 
+[2.507s]   Could not find a package configuration file provided by
+[2.507s]   "dynamixel_workbench_toolbox" with any of the following names:
+[2.507s] 
+[2.507s]     dynamixel_workbench_toolboxConfig.cmake
+[2.507s]     dynamixel_workbench_toolbox-config.cmake
+[2.507s] 
+[2.507s]   Add the installation prefix of "dynamixel_workbench_toolbox" to
+[2.508s]   CMAKE_PREFIX_PATH or set "dynamixel_workbench_toolbox_DIR" to a directory
+[2.508s]   containing one of the above files.  If "dynamixel_workbench_toolbox"
+[2.508s]   provides a separate development package or SDK, be sure it has been
+[2.508s]   installed.
+[2.508s] 
+[2.508s] 
+[2.522s] -- Configuring incomplete, errors occurred!
+[2.523s] See also "/home/xinchen/Dev/SRTP/build/motor_controller/CMakeFiles/CMakeOutput.log".
+[2.523s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/motor_controller -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/motor_controller

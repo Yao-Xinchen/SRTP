@@ -1,0 +1,80 @@
+[0.042s] Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox
+[0.173s] -- The C compiler identification is GNU 9.4.0
+[0.282s] -- The CXX compiler identification is GNU 9.4.0
+[0.292s] -- Check for working C compiler: /usr/bin/cc
+[0.446s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.455s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.677s] -- Detecting C compile features
+[0.678s] -- Detecting C compile features - done
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++
+[0.871s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.871s] -- Detecting CXX compiler ABI info
+[1.041s] -- Detecting CXX compiler ABI info - done
+[1.061s] -- Detecting CXX compile features
+[1.062s] -- Detecting CXX compile features - done
+[1.069s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.121s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.121s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.593s] -- Found dynamixel_sdk: 3.7.40 (/home/xinchen/Dev/SRTP/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.598s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.698s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.893s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.957s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.237s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.239s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.242s] -- Looking for pthread.h
+[2.401s] -- Looking for pthread.h - found
+[2.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.553s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.554s] -- Looking for pthread_create in pthreads
+[2.683s] -- Looking for pthread_create in pthreads - not found
+[2.683s] -- Looking for pthread_create in pthread
+[2.842s] -- Looking for pthread_create in pthread - found
+[2.844s] -- Found Threads: TRUE  
+[3.268s] -- Configuring done
+[3.284s] -- Generating done
+[3.287s] -- Build files have been written to: /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox
+[3.306s] Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/xinchen/Dev/SRTP/src/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox
+[3.314s] Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox -- -j6 -l6
+[3.399s] [35m[1mScanning dependencies of target dynamixel_workbench_toolbox[0m
+[3.429s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_tool.cpp.o[0m
+[3.429s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_item.cpp.o[0m
+[3.429s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o[0m
+[3.440s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_workbench.cpp.o[0m
+[4.408s] [100%] [32m[1mLinking CXX shared library libdynamixel_workbench_toolbox.so[0m
+[4.620s] [100%] Built target dynamixel_workbench_toolbox
+[4.645s] Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox -- -j6 -l6
+[4.712s] Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox
+[4.730s] -- Install configuration: ""
+[4.730s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[4.732s] -- Set runtime path of "/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so" to ""
+[4.732s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include/
+[4.733s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox
+[4.733s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[4.733s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[4.733s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[4.734s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[4.734s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[4.734s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[4.735s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[4.735s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[4.735s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[4.735s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[4.736s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[4.736s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[4.736s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[4.736s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[4.737s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[4.737s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[4.737s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[4.738s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[4.738s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.739s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.739s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[4.739s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[4.739s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[4.740s] -- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[4.754s] Invoked command in '/home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/dynamixel_workbench_toolbox

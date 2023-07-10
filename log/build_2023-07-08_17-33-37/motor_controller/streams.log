@@ -1,0 +1,27 @@
+[0.103s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[0.243s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.319s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.836s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.836s]   By not providing "Finddynamixel_workbench_toolbox.cmake" in
+[0.837s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.837s]   configuration file provided by "dynamixel_workbench_toolbox", but CMake did
+[0.837s]   not find one.
+[0.838s] 
+[0.838s]   Could not find a package configuration file provided by
+[0.838s]   "dynamixel_workbench_toolbox" with any of the following names:
+[0.838s] 
+[0.838s]     dynamixel_workbench_toolboxConfig.cmake
+[0.838s]     dynamixel_workbench_toolbox-config.cmake
+[0.839s] 
+[0.839s]   Add the installation prefix of "dynamixel_workbench_toolbox" to
+[0.840s]   CMAKE_PREFIX_PATH or set "dynamixel_workbench_toolbox_DIR" to a directory
+[0.840s]   containing one of the above files.  If "dynamixel_workbench_toolbox"
+[0.840s]   provides a separate development package or SDK, be sure it has been
+[0.840s]   installed.
+[0.841s] 
+[0.841s] 
+[0.841s] -- Configuring incomplete, errors occurred!
+[0.842s] See also "/home/xinchen/Dev/SRTP/build/motor_controller/CMakeFiles/CMakeOutput.log".
+[0.842s] See also "/home/xinchen/Dev/SRTP/build/motor_controller/CMakeFiles/CMakeError.log".
+[0.845s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.850s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6

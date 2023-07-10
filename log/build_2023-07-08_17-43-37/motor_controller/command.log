@@ -1,0 +1,2 @@
+Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6

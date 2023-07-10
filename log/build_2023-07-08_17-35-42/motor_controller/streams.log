@@ -1,0 +1,20 @@
+[0.116s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[1.200s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[1.314s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/motor_controller
+[1.340s] -- Install configuration: ""
+[1.341s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller
+[1.342s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller
+[1.343s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh
+[1.347s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv
+[1.348s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/path.sh
+[1.348s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/path.dsv
+[1.348s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.bash
+[1.348s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.sh
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.zsh
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.dsv
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.dsv
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/packages/motor_controller
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake
+[1.349s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.xml
+[1.428s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/motor_controller

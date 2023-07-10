@@ -1,0 +1,4 @@
+Invoking command in '/home/xinchen/Dev/SRTP/build/launch_files': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/launch_files -- -j6 -l6
+Invoked command in '/home/xinchen/Dev/SRTP/build/launch_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/launch_files -- -j6 -l6
+Invoking command in '/home/xinchen/Dev/SRTP/build/launch_files': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/launch_files
+Invoked command in '/home/xinchen/Dev/SRTP/build/launch_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/launch_files
