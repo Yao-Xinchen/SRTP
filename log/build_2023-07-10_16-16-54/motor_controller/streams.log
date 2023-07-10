@@ -1,0 +1,13 @@
+[0.197s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[0.410s] [35m[1mScanning dependencies of target torque_controller[0m
+[0.505s] [ 50%] Built target position_controller
+[0.541s] [ 75%] [32mBuilding CXX object CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o[0m
+[11.772s] [100%] [32m[1mLinking CXX executable torque_controller[0m
+[12.338s] /usr/bin/ld: CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o: in function `main':
+[12.338s] torque_controller.cpp:(.text+0x318): undefined reference to `dxl_wb'
+[12.338s] /usr/bin/ld: torque_controller.cpp:(.text+0x31c): undefined reference to `dxl_wb'
+[12.339s] collect2: error: ld returned 1 exit status
+[12.339s] make[2]: *** [CMakeFiles/torque_controller.dir/build.make:163: torque_controller] Error 1
+[12.339s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/torque_controller.dir/all] Error 2
+[12.342s] make: *** [Makefile:141: all] Error 2
+[12.354s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '2': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6

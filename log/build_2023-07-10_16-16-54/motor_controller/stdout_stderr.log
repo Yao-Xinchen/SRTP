@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target torque_controller[0m
+[ 50%] Built target position_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable torque_controller[0m
+/usr/bin/ld: CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o: in function `main':
+torque_controller.cpp:(.text+0x318): undefined reference to `dxl_wb'
+/usr/bin/ld: torque_controller.cpp:(.text+0x31c): undefined reference to `dxl_wb'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/torque_controller.dir/build.make:163: torque_controller] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/torque_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

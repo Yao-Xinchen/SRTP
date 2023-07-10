@@ -1,3 +1,5 @@
+/home/xinchen/Dev/SRTP/install/motor_controller/lib/motor_controller/torque_controller
+/home/xinchen/Dev/SRTP/install/motor_controller/lib/motor_controller/position_controller
 /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller
 /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller
 /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh

@@ -1,0 +1,1 @@
+[0.132s] Invoking command in '/home/xinchen/Dev/SRTP/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk -DCMAKE_EXPORT_COMPILE_COMMANDS=On \ -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/dynamixel_sdk

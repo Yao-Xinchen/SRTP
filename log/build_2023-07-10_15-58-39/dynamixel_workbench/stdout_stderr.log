@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xinchen/Dev/SRTP/build/dynamixel_workbench
+-- Install configuration: ""
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench
+-- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.sh
+-- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.sh
+-- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.dsv
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.bash
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.sh
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.zsh
+-- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.dsv
+-- Installing: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/ament_index/resource_index/packages/dynamixel_workbench
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig.cmake
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig-version.cmake
+-- Up-to-date: /home/xinchen/Dev/SRTP/install/dynamixel_workbench/share/dynamixel_workbench/package.xml

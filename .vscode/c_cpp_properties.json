@@ -9,6 +9,7 @@
         "/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox/include/**",
         "/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces/include/**",
         "/home/xinchen/Dev/SRTP/install/dynamixel_sdk/include/**",
+        "/home/xinchen/Dev/SRTP/install/custom_interface/include/**",
         "/opt/ros/foxy/include/**",
         "/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk/include/**",
         "/home/xinchen/Dev/SRTP/src/DynamixelSDK/dynamixel_sdk_examples/include/**",

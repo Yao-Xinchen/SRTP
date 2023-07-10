@@ -1,0 +1,35 @@
+[0.109s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[0.365s] [35m[1mScanning dependencies of target torque_controller[0m
+[0.482s] [ 25%] [32mBuilding CXX object CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o[0m
+[0.502s] [ 75%] Built target position_controller
+[3.764s] [01m[K/home/xinchen/Dev/SRTP/src/motor_controller/src/torque_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.764s] [01m[K/home/xinchen/Dev/SRTP/src/motor_controller/src/torque_controller.cpp:32:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.765s]    32 | int main([01;35m[Kint argc[m[K, char **argv)
+[3.765s]       |          [01;35m[K~~~~^~~~[m[K
+[3.765s] [01m[K/home/xinchen/Dev/SRTP/src/motor_controller/src/torque_controller.cpp:32:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.765s]    32 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[3.765s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[4.765s] [100%] [32m[1mLinking CXX executable torque_controller[0m
+[5.073s] [100%] Built target torque_controller
+[5.109s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '0': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/motor_controller -- -j6 -l6
+[5.167s] Invoking command in '/home/xinchen/Dev/SRTP/build/motor_controller': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/motor_controller
+[5.190s] -- Install configuration: ""
+[5.191s] -- Installing: /home/xinchen/Dev/SRTP/install/motor_controller/lib/motor_controller/torque_controller
+[5.191s] -- Set runtime path of "/home/xinchen/Dev/SRTP/install/motor_controller/lib/motor_controller/torque_controller" to ""
+[5.191s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/lib/motor_controller/position_controller
+[5.193s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller
+[5.194s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller
+[5.194s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh
+[5.194s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv
+[5.195s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/path.sh
+[5.195s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/environment/path.dsv
+[5.195s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.bash
+[5.195s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.sh
+[5.195s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.zsh
+[5.196s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/local_setup.dsv
+[5.196s] -- Installing: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.dsv
+[5.196s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/ament_index/resource_index/packages/motor_controller
+[5.196s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake
+[5.196s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake
+[5.196s] -- Up-to-date: /home/xinchen/Dev/SRTP/install/motor_controller/share/motor_controller/package.xml
+[5.206s] Invoked command in '/home/xinchen/Dev/SRTP/build/motor_controller' returned '0': AMENT_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xinchen/Dev/SRTP/install/custom_interface:/home/xinchen/Dev/SRTP/install/motor_controller:/home/xinchen/Dev/SRTP/install/launch_files:/home/xinchen/Dev/SRTP/install/dynamixel_workbench:/home/xinchen/Dev/SRTP/install/dynamixel_workbench_toolbox:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_examples:/home/xinchen/Dev/SRTP/install/dynamixel_sdk_custom_interfaces:/home/xinchen/Dev/SRTP/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xinchen/Dev/SRTP/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/motor_controller

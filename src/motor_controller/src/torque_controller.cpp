@@ -8,18 +8,21 @@ using std::placeholders::_1;
 #define BAUDRATE 57600
 #define ID 1
 
-extern DynamixelWorkbench dxl_wb;
+DynamixelWorkbench dxl_wb;
 
 class TorqueController : public rclcpp::Node
 {
-private:
-    rclcpp::Subscription<custom_interface::msg::Torque>::SharedPtr subscription_;
-
+public:
     TorqueController() : Node("TorqueContoller")
     {
         subscription_ = this->create_subscription<custom_interface::msg::Torque>(
-            "torque", 10, std::bind(&TorqueController::torque_callback, this, std::placeholders::_1));
+            "torque", 10, [this](custom_interface::msg::Torque::SharedPtr torque) {
+                this->torque_callback(*torque);
+            });
     }
+private:
+    rclcpp::Subscription<custom_interface::msg::Torque>::SharedPtr subscription_;
+
     
     void torque_callback(const custom_interface::msg::Torque &torque) const
     {
@@ -38,6 +41,6 @@ int main(int argc, char **argv)
     RCLCPP_INFO(node.get_logger(), "Dynamixel Workbench Initialized");
 
     rclcpp::spin(std::make_shared<TorqueController>());
-
+    return 0;
     
 }
