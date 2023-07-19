@@ -1,4 +1,0 @@
-Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
-Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xinchen/Dev/SRTP/build/custom_interface -- -j6 -l6
-Invoking command in '/home/xinchen/Dev/SRTP/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface
-Invoked command in '/home/xinchen/Dev/SRTP/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xinchen/Dev/SRTP/build/custom_interface

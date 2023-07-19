@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_interface",
-  "non_idl_tuples": [
-    "/home/xinchen/Dev/SRTP/src/custom_interface:msg/Torque.msg",
-    "/home/xinchen/Dev/SRTP/src/custom_interface:msg/Position.msg"
-  ]
-}

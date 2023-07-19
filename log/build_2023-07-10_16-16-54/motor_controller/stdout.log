@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target torque_controller[0m
-[ 50%] Built target position_controller
-[ 75%] [32mBuilding CXX object CMakeFiles/torque_controller.dir/src/torque_controller.cpp.o[0m
-[100%] [32m[1mLinking CXX executable torque_controller[0m

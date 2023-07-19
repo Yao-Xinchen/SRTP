@@ -1,1 +1,0 @@
-Invoking command in '/home/xinchen/Dev/SRTP/build/launch_files': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xinchen/Dev/SRTP/src/launch_files -DCMAKE_INSTALL_PREFIX=/home/xinchen/Dev/SRTP/install/launch_files
