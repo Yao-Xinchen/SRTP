@@ -1,7 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
-#include "custom_interface/msg/position.hpp"
-#include <custom_interface/msg/detail/position__struct.hpp>
+#include "motor_interface/msg/position.hpp"
+#include <motor_interface/msg/detail/position__struct.hpp>
 
 #define BAUDRATE 57600
 #define ID 1
@@ -15,8 +15,8 @@ public:
     PositionController() : Node("PositionContoller")
     {
         // subscribe to position topic
-        subscription_ = this->create_subscription<custom_interface::msg::Position>(
-            "position", 10, [this](custom_interface::msg::Position::SharedPtr position) {
+        subscription_ = this->create_subscription<motor_interface::msg::Position>(
+            "position", 10, [this](motor_interface::msg::Position::SharedPtr position) {
                 this->position_callback(*position);
             });
 
@@ -29,9 +29,9 @@ public:
     }
 
 private:
-        rclcpp::Subscription<custom_interface::msg::Position>::SharedPtr subscription_;
+        rclcpp::Subscription<motor_interface::msg::Position>::SharedPtr subscription_;
 
-        void position_callback(const custom_interface::msg::Position &position) const
+        void position_callback(const motor_interface::msg::Position &position) const
         {
             // set position
             int position_data = dxl_wb.convertRadian2Value(ID, position.position);

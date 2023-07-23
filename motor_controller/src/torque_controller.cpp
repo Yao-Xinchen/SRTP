@@ -1,7 +1,7 @@
 #include <memory>
 #include "rclcpp/rclcpp.hpp"
 #include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
-#include "custom_interface/msg/torque.hpp"
+#include "motor_interface/msg/torque.hpp"
 
 #define BAUDRATE 57600
 #define ID 1
@@ -15,8 +15,8 @@ public:
     TorqueController() : Node("TorqueContoller")
     {
         // subscribe to torque topic
-        subscription_ = this->create_subscription<custom_interface::msg::Torque>(
-            "torque", 10, [this](custom_interface::msg::Torque::SharedPtr torque) {
+        subscription_ = this->create_subscription<motor_interface::msg::Torque>(
+            "torque", 10, [this](motor_interface::msg::Torque::SharedPtr torque) {
                 this->torque_callback(*torque);
             });
 
@@ -29,10 +29,10 @@ public:
 
     }
 private:
-    rclcpp::Subscription<custom_interface::msg::Torque>::SharedPtr subscription_;
+    rclcpp::Subscription<motor_interface::msg::Torque>::SharedPtr subscription_;
 
     
-    void torque_callback(const custom_interface::msg::Torque &torque) const
+    void torque_callback(const motor_interface::msg::Torque &torque) const
     {
         int current_data = dxl_wb.convertValue2Current(ID, torque.torque); // remain to be changed
         dxl_wb.itemWrite(ID, "Goal_Current", current_data);

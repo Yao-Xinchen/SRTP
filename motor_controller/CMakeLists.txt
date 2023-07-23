@@ -23,13 +23,13 @@ find_package(ament_cmake REQUIRED)
 find_package(dynamixel_workbench_toolbox REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(custom_interface REQUIRED)
+find_package(motor_interface REQUIRED)
 
 add_executable(torque_controller src/torque_controller.cpp)
 ament_target_dependencies(torque_controller
   rclcpp
   std_msgs
-  custom_interface
+  motor_interface
   dynamixel_workbench_toolbox
 )
 
@@ -37,7 +37,7 @@ add_executable(position_controller src/position_controller.cpp)
 ament_target_dependencies(position_controller
   rclcpp
   std_msgs
-  custom_interface
+  motor_interface
   dynamixel_workbench_toolbox
 )
 

@@ -1,18 +1,24 @@
-from typing import List
-import rclpy
+from math import exp
 import os
-import sys
+import rclpy
 import select
-from rclpy.context import Context
+import sys
+import threading
 
 from rclpy.node import Node
+from rclpy.qos import QoSProfile
+from sensor_msgs.msg import JointState
 
 from custom_interface.msg import Position
-from custom_interface.msg import Taorque
+from custom_interface.msg import Torque
 from rclpy.parameter import Parameter
 
 class TestKeyboard(Node):
+    qos = QoSProfile(depth=10)
+    setting = None
+
     def __init__(self):
         super().__init__('test_keyboard')
-        self.publisher_ = self.create_publisher(Position, 'position', 10)
-        self.publisher_ = self.create_publisher(Taorque, 'taorque', 10)
+        key_value = ''
+
+        

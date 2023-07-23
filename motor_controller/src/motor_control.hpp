@@ -1,7 +1,9 @@
 #include "rclcpp/rclcpp.hpp"
 #include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
-#include "custom_interface/msg/position.hpp"
-#include <custom_interface/msg/detail/position__struct.hpp>
+#include "motor_interface/msg/position.hpp"
+#include <motor_interface/msg/detail/position__struct.hpp>
+#include <motor_interface/msg/torque.hpp>
+#include <motor_interface/msg/detail/torque__struct.hpp>
 
 #define P_GAIN 0.0325
 #define I_GAIN 0.0
@@ -14,7 +16,7 @@ extern DynamixelWorkbench dxl_wb;
 class MotorControl
 {
 public:
-    void pid_control(int ID, const custom_interface::msg::Position &position)
+    void pid_control(int ID, const motor_interface::msg::Position &position)
     {
         int goal_position = position.position;
         int present_position;
