@@ -4,7 +4,7 @@
 #include <motor_interface/msg/detail/position__struct.hpp>
 
 #define BAUDRATE 57600
-#define ID 1
+// #define ID 1
 #define LIMIT_CURRENT 1000
 
 DynamixelWorkbench dxl_wb;
@@ -21,11 +21,10 @@ public:
             });
 
         // start controlling
-        dxl_wb.begin("/dev/ttyUSB0", BAUDRATE);
-        RCLCPP_INFO(this->get_logger(), "Dynamixel Workbench Initialized");
-        dxl_wb.setPositionControlMode(ID);
-        dxl_wb.itemWrite(ID, "Current_Limit", LIMIT_CURRENT);
-        dxl_wb.torqueOn(ID);
+        if(dxl_wb.begin("/dev/ttyUSB0", BAUDRATE))
+        {
+            RCLCPP_INFO(this->get_logger(), "Dynamixel Workbench Initialized");
+        }
     }
 
 private:
@@ -33,10 +32,32 @@ private:
 
         void position_callback(const motor_interface::msg::Position &position) const
         {
+            // init
+            if(dxl_wb.setPositionControlMode(position.id))
+            {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Set to position control mode", position.id);
+            }
+            else {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Failed to set to position control mode", position.id);
+            }
+            if(dxl_wb.torqueOn(position.id))
+            {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Torque on", position.id);
+            }
+            else {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Failed to turn on torque", position.id);
+            }
             // set position
-            int position_data = dxl_wb.convertRadian2Value(ID, position.position);
-            dxl_wb.itemWrite(ID, "Goal_Position", position_data);
-            RCLCPP_INFO(this->get_logger(), "Position set to %f", position.position);
+            int position_data = dxl_wb.convertRadian2Value(position.id,position.position);
+            // RCLCPP_INFO(this->get_logger(), "position data = %d", position_data);
+            if (dxl_wb.itemWrite(position.id, "Goal_Position", position_data))
+            {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Position set to %f", position.position);
+            }
+            else
+            {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Failed to set position");
+            }
         }
 
 };

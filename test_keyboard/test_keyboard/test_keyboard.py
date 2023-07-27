@@ -59,9 +59,12 @@ def main():
     except Exception as e:
         print(e)
 
+    # middle
     while(rclpy.ok()):
         rclpy.spin_once(test_keyboard, timeout_sec=0.01)
         key_value = get_key(settings)
+        if key_value == "a":
+            break
 
     # final
     if os.name != 'nt':
