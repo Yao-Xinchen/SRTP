@@ -25,8 +25,8 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(motor_interface REQUIRED)
 
-add_executable(torque_controller src/torque_controller.cpp)
-ament_target_dependencies(torque_controller
+add_executable(current_controller src/current_controller.cpp)
+ament_target_dependencies(current_controller
   rclcpp
   std_msgs
   motor_interface
@@ -42,7 +42,7 @@ ament_target_dependencies(position_controller
 )
 
 install(TARGETS
-  torque_controller
+  current_controller
   position_controller
   DESTINATION lib/${PROJECT_NAME}
 )
