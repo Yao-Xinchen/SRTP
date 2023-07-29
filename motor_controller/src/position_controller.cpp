@@ -3,7 +3,8 @@
 #include "motor_interface/msg/position.hpp"
 #include <motor_interface/msg/detail/position__struct.hpp>
 
-#define BAUDRATE 57600
+#define PORT "/dev/ttyUSB0"
+#define BAUDRATE 1000000 // default 57600
 // #define ID 1
 #define LIMIT_CURRENT 1000
 
@@ -21,9 +22,12 @@ public:
             });
 
         // start controlling
-        if(dxl_wb.begin("/dev/ttyUSB0", BAUDRATE))
+        if(dxl_wb.init(PORT, BAUDRATE))
         {
             RCLCPP_INFO(this->get_logger(), "Dynamixel Workbench Initialized");
+        }
+        else {
+            RCLCPP_INFO(this->get_logger(), "Failed to initialize Dynamixel Workbench");
         }
     }
 
@@ -32,27 +36,26 @@ private:
 
         void position_callback(const motor_interface::msg::Position &position) const
         {
-            // init
-            if(dxl_wb.setPositionControlMode(position.id))
+            
+            if (dxl_wb.ping(position.id))
+            {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Ping Succeeded", position.id);
+            }
+            else
+            {
+                RCLCPP_INFO(this->get_logger(), "id: %d, Ping Failed", position.id);
+            }
+            if(dxl_wb.jointMode(position.id, 0,0))
             {
                 RCLCPP_INFO(this->get_logger(), "id: %d, Set to position control mode", position.id);
             }
             else {
                 RCLCPP_INFO(this->get_logger(), "id: %d, Failed to set to position control mode", position.id);
             }
-            if(dxl_wb.torqueOn(position.id))
-            {
-                RCLCPP_INFO(this->get_logger(), "id: %d, Torque on", position.id);
-            }
-            else {
-                RCLCPP_INFO(this->get_logger(), "id: %d, Failed to turn on torque", position.id);
-            }
-            // set position
             int position_data = dxl_wb.convertRadian2Value(position.id,position.position);
-            // RCLCPP_INFO(this->get_logger(), "position data = %d", position_data);
-            if (dxl_wb.itemWrite(position.id, "Goal_Position", position_data))
+            if (dxl_wb.goalPosition(position.id, position_data))
             {
-                RCLCPP_INFO(this->get_logger(), "id: %d, Position set to %f", position.position);
+                RCLCPP_INFO(this->get_logger(), "id: %d, Position set to %f", position.id, position.position);
             }
             else
             {
