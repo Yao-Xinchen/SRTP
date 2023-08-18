@@ -16,7 +16,8 @@
 
 /* Authors: Taehun Lim (Darby) */
 
-#include  "dynamixel_workbench_toolbox/dynamixel_workbench.h"
+#include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
+#include <iostream>
 
 void swap(int32_t *array);
 

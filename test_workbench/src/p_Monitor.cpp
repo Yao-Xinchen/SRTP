@@ -16,7 +16,8 @@
 
 /* Authors: Taehun Lim (Darby) */
 
-#include  "dynamixel_workbench_toolbox/dynamixel_workbench.h"
+#include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
+#include <iostream>
 #include <fcntl.h>          // FILE control
 #include <termios.h>        // Terminal IO
 #include <iostream>
