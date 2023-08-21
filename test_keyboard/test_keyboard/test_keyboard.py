@@ -1,23 +1,15 @@
 from math import exp
-import os
 import rclpy
-import select
-import sys
 import threading
+from keyboard_interpreter import KeyboardInterpreter
 
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
-from sensor_msgs.msg import JointState
+# from sensor_msgs.msg import JointState
 
-from custom_interface.msg import Position
-from custom_interface.msg import Torque
+from motor_interface.msg import Position
+from motor_interface.msg import Current
 from rclpy.parameter import Parameter
-
-if os.name == 'nt':
-    import msvcrt
-else:
-    import termios
-    import tty
 
 e = """
 Communications Failed
@@ -25,49 +17,29 @@ Communications Failed
 
 class TestKeyboard(Node):
     qos = QoSProfile(depth=10)
-    setting = None
+    key_value = None
+    keyboard_interpreter = KeyboardInterpreter()
 
     def __init__(self):
         super().__init__('test_keyboard')
-        key_value = ''
+        self.pub = self.create_publisher(Position, 'position', self.qos)
+        self.timer = self.create_timer(0.01, self.timer_callback)
 
-def get_key(settings):
-    if os.name == 'nt':
-        return msvcrt.getch().decode('utf-8')
-    tty.setraw(sys.stdin.fileno())
-    rlist, _, _ = select.select([sys.stdin], [], [], 0.1)
-    if rlist:
-        key = sys.stdin.read(1)
-    else:
-        key = ''
+    def timer_callback(self): # may exist problems
+        self.key_value = self.keyboard_interpreter.get_key()
+        self.get_logger().info('Keyboard: %s' % self.key_value)
+        self.pub.publish(Position()) # TODO: change key value to id and position
 
-    termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
-    # print_present_values()
-    return key
-
+    def end(self):
+        self.keyboard_interpreter.end()
 
 def main():
     # start
-    settings = None
-    if os.name != 'nt':
-        settings = termios.tcgetattr(sys.stdin)
-
     rclpy.init()
+    node = TestKeyboard("test_keyboard")
 
-    try:
-        test_keyboard = TestKeyboard()
-    except Exception as e:
-        print(e)
+    rclpy.spin(node)
 
-    # middle
-    while(rclpy.ok()):
-        rclpy.spin_once(test_keyboard, timeout_sec=0.01)
-        key_value = get_key(settings)
-        if key_value == "a":
-            break
-
-    # final
-    if os.name != 'nt':
-        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
-    test_keyboard.destroy_node()
+    node.end()
+    node.destroy_node()
     rclpy.shutdown()
