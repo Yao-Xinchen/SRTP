@@ -27,3 +27,7 @@ To avoid errors when trying to #include
 In VScode, install Clangd
 
 Build with ```colcon build --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'``` in the workspace
+
+Update ROS extension with ctrl+shift+p -> ROS: Update C++ Properties -> ROS: Update Python Path
+
+Update clangd with ctrl+shift+p -> clangd: Restart language server
