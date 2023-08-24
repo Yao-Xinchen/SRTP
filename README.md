@@ -27,5 +27,3 @@ To avoid errors when trying to #include
 In VScode, install Clangd
 
 Build with ```colcon build --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'``` in the workspace
-
-Update compile_commands with ```cp build/compile_commands.json compile_commands.json```
