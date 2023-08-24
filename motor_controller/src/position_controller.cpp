@@ -59,7 +59,7 @@ private:
             }
             else
             {
-                RCLCPP_INFO(this->get_logger(), "id: %d, Failed to set position");
+                RCLCPP_INFO(this->get_logger(), "id: %d, Failed to set position", position.id);
             }
         }
 

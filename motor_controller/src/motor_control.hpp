@@ -2,8 +2,8 @@
 #include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
 #include "motor_interface/msg/position.hpp"
 #include <motor_interface/msg/detail/position__struct.hpp>
-#include <motor_interface/msg/torque.hpp>
-#include <motor_interface/msg/detail/torque__struct.hpp>
+#include <motor_interface/msg/current.hpp>
+#include <motor_interface/msg/detail/current__struct.hpp>
 
 #define P_GAIN 0.0325
 #define I_GAIN 0.0
