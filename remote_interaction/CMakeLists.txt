@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(remote_reaction)
+project(remote_interaction)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -16,7 +16,7 @@ find_package(motor_interface REQUIRED)
 include_directories(include)
 
 add_executable(remote_reaction
-  src/remote_reaction.cpp)
+  src/remote_interaction.cpp)
 ament_target_dependencies(remote_reaction rclcpp motor_interface)
 
 if(BUILD_TESTING)

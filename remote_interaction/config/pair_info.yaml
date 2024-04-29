@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+
+    pair_count:  1
+    first:       ["M1"]
+    second:      ["M2"]

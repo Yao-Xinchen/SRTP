@@ -1,0 +1,20 @@
+/**:
+  ros__parameters:
+
+    motor:
+      count:   2
+      rids:    ["M1",      "M2"]
+      hids:    [1,         2]
+      ports:   ["CAN0",    "CAN0"]
+      brands:  ["DJI",     "DJI"]
+      types:   ["3508",    "3508"]
+
+      p2v:
+        kps:   [2.8E+1,    2.8E+1]
+        kis:   [2.0E+0,    2.0E+0]
+        kds:   [1.0E+3,    1.0E+3]
+
+      v2c:
+        kps:   [1.0E-1,    1.0E-1]
+        kis:   [1.0E-2,    1.0E-2]
+        kds:   [0.0E+3,    0.0E+3]
