@@ -15,9 +15,20 @@ find_package(motor_interface REQUIRED)
 
 include_directories(include)
 
-add_executable(remote_reaction
+add_executable(remote_interaction
   src/remote_interaction.cpp)
-ament_target_dependencies(remote_reaction rclcpp motor_interface)
+ament_target_dependencies(remote_interaction rclcpp motor_interface)
+
+install(TARGETS
+  remote_interaction
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  launch
+  config
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

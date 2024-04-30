@@ -3,6 +3,7 @@
 #include "motor_interface/msg/motor_state.hpp"
 #include "remote_reaction/joint.hpp"
 #include "remote_reaction/joint_pair.hpp"
+#include <rclcpp/logging.hpp>
 #include <rclcpp/timer.hpp>
 #include <thread>
 #include <unordered_map>
@@ -19,7 +20,7 @@ public:
     {
         // Create joint pairs
         int count = 0;
-        count = this->declare_parameter("count", count);
+        count = this->declare_parameter("pair_count", count);
         vector<string> first_joints;
         first_joints = this->declare_parameter("first", first_joints);
         vector<string> second_joints;
@@ -27,11 +28,9 @@ public:
 
         for (auto i = 0; i < count; i++)
         {
-            Joint joint1(first_joints[i]);
-            Joint joint2(second_joints[i]);
-            joints[joint1.get_name()] = joint1;
-            joints[joint2.get_name()] = joint2;
-            auto joint_pair = std::make_shared<JointPair>(std::make_shared<Joint>(joint1), std::make_shared<Joint>(joint2));
+            joints[first_joints[i]] = std::make_shared<Joint>(first_joints[i]);
+            joints[second_joints[i]] = std::make_shared<Joint>(second_joints[i]);
+            auto joint_pair = std::make_shared<JointPair>(joints[first_joints[i]], joints[second_joints[i]]);
             joint_pairs.push_back(joint_pair);
         }
 
@@ -41,6 +40,8 @@ public:
 
         timer = this->create_wall_timer(chrono::milliseconds(10),
             bind(&RemoteInteraction::timer_callback, this));
+
+        RCLCPP_INFO(this->get_logger(), "RemoteInteraction initialized.");
     }
 
 private:
@@ -48,7 +49,7 @@ private:
     rclcpp::Subscription<motor_interface::msg::MotorState>::SharedPtr motor_state_sub_;
 
     vector<std::shared_ptr<JointPair>> joint_pairs;
-    unordered_map<string, Joint> joints;
+    unordered_map<string, std::shared_ptr<Joint>> joints;
 
     rclcpp::TimerBase::SharedPtr timer;
 
@@ -60,7 +61,7 @@ private:
             auto pos = msg->present_pos[i];
             auto vel = msg->present_vel[i];
             auto tor = msg->present_tor[i];
-            joints[motor_id].update_state(pos, vel, tor);
+            joints[motor_id]->update_state(pos, vel, tor);
         }
     }
 
@@ -69,10 +70,10 @@ private:
         motor_interface::msg::MotorGoal goal;
         for (auto& [_, joint]: joints)
         {
-            goal.motor_id.push_back(joint.get_name());
-            goal.goal_pos.push_back(joint.position_command);
-            goal.goal_vel.push_back(joint.velocity_command);
-            goal.goal_tor.push_back(joint.torque_command);
+            goal.motor_id.push_back(joint->get_name());
+            goal.goal_pos.push_back(joint->position_command);
+            goal.goal_vel.push_back(joint->velocity_command);
+            goal.goal_tor.push_back(joint->torque_command);
         }
         motor_goal_pub_->publish(goal);
     }
@@ -81,6 +82,7 @@ private:
 int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<RemoteInteraction>());
     rclcpp::shutdown();
     return 0;
 }

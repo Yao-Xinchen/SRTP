@@ -2,6 +2,7 @@
 #define JOINT_PAIR_HPP
 
 #include <memory>
+#include <rclcpp/rclcpp.hpp>
 #include <thread>
 
 #include "joint.hpp"
@@ -19,6 +20,7 @@ public:
                 std::this_thread::sleep_for(std::chrono::milliseconds(10));
             }
         });
+        RCLCPP_INFO(rclcpp::get_logger("JointPair"), "JointPair initialized.");
     }
 
     std::shared_ptr<Joint> get_joint1() { return joint1; }

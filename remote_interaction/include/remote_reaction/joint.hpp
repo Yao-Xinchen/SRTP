@@ -1,6 +1,7 @@
 #ifndef JOINT_HPP
 #define JOINT_HPP
 
+#include <rclcpp/logging.hpp>
 #include <string>
 #include <cmath>
 
